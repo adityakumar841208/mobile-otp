@@ -1,8 +1,16 @@
 import React from 'react'
+import Otpcomponent from './Components/Otpcomponent'
 
 const App = () => {
   return (
-    <div class=" bg-orange-400">App</div>
+    <>
+      <div> 
+          <h1 className="text-center py-10">
+            Mobile Otp form component
+          </h1>
+      </div>
+      <Otpcomponent />
+    </>
   )
 }
 
